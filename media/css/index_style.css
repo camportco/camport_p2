@@ -1,0 +1,18 @@
+#slideshow-container	{ width:400px; height:250px; position:relative; }
+
+#slideshow-container img {
+	width:400px;
+	height:250px;
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+
+.toc					{ position:absolute; right:10px; bottom:2px; z-index:2; display:block; width:20px; background:#FFF; color:#FFF; text-align:center; padding:3px; text-decoration:none; }
+.toc-active				{ background:#999; color:#999999; }
+
+.prod_img {    border: 3px solid #eee; margin: 0px 5px 5px 0px; left:50%; }
+
+.imagecenter { text-align: center;} 
